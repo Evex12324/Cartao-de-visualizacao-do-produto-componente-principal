@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f3eae1;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.perfume-desktop {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.perfume-mobile {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+section {
+    padding: 0 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+section h4 {
+    margin: 25px 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+section h1 {
+    font-size: 27px;
+    padding-right: 21px;
+}
+
+section .conteudo {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+section .preco {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+
+section .preco .forte {
+    color: #295847;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+section .preco .fraco {
+    color: black;
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+section a {
+    background-color: #3D8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+section a:hover {
+    background-color: #295847;
+    scale: 1.1;
+}
+
+section a p {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p, h4{
+    color: #8A8A93;
+}
+
+section h1, section .preco .forte {
+    font-family: "Fraunces", serif;
+}

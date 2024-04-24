@@ -1,0 +1,43 @@
+@media(max-width: 600px) {
+
+    main {
+        flex-direction: column;
+        width: 500px;
+        margin: 30px auto;
+    }
+
+    .perfume-desktop {
+        display: none;
+    }
+
+    section h1 {
+        font-size: 35px;
+    }
+
+    section .conteudo {
+        font-size: 16px;
+    }
+
+    section .preco .forte {
+        font-size: 35px;
+    }
+
+    section a {
+        margin: 0 auto 25px auto;
+        padding: 15px 0;
+        width: 80%;
+    }
+
+}
+
+@media(min-width: 600px) {
+    
+    body {
+        height: 100vh;
+        display: flex;
+    }
+
+    .perfume-mobile {
+        display: none;
+    }
+}
