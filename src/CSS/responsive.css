@@ -1,9 +1,12 @@
 @media(max-width: 600px) {
 
+    body {
+        justify-content: center;
+    }
+
     main {
         flex-direction: column;
-        width: 500px;
-        margin: 30px auto;
+        width: 380px;
     }
 
     .perfume-desktop {
@@ -31,11 +34,6 @@
 }
 
 @media(min-width: 600px) {
-    
-    body {
-        height: 100vh;
-        display: flex;
-    }
 
     .perfume-mobile {
         display: none;
